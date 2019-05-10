@@ -309,8 +309,8 @@ namespace Sanford.Multimedia.Midi
 
             Console.WriteLine($"3-Before lock in Stop");
 
-            #region try to lock lockObject
             // attempts to acquire an exclusive lock on lockObject
+            #region try to lock lockObject
             if (Monitor.TryEnter(lockObject))
             {
                 try

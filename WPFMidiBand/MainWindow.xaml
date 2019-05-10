@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:ctrl="clr-namespace:WPFMidiBand.Controls"
         Title="WPF Midi Band" Height="700" Width="560" Icon="Images/guitar_icon.png">
+    <Viewbox>
     <Window.Background>
         <LinearGradientBrush>
             <GradientStop Offset="0.0" Color="#FF000000"/>
@@ -115,4 +116,5 @@
             </Grid>
         </Grid>
     </Grid>
+    </Viewbox>
 </Window>
